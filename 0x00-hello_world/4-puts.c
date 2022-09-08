@@ -1,8 +1,13 @@
 #include<stdio.h>
-int main()
+
+/**
+ * main - Entry point
+ *
+ * this program prints \"Programming is like building a multilingual puzzle
+ * Return: 0
+ */
+int main(void)
 {
-	/* string initialization */
-	char mystr[] = "\"Programming is like building a multilingual puzzle";
-	puts(mystr); /* writing to stdout */
-	return 0;
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
