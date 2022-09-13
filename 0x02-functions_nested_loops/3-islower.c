@@ -4,7 +4,7 @@
  * _islower - checks if character passed as arg is lowercase
  *
  * @c: is an argument being passed to the function
- * Return: 0 
+ * Return: 0
  */
 int _islower(int c)
 {
