@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
+ * main
+ *
  * description prints the alphabet, in lowercas
- * e
+ * using prototype 
  * Return: 0
  */
 void print_alphabet(void)
