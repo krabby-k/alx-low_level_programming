@@ -3,7 +3,7 @@
 /**
  * _memcpy - copies bytes from memort area
  *
- * @dest: memory area to be copied to 
+ * @dest: memory area to be copied to
  * @src: memory area to be copied from
  * @n: number of bytes to be copied
  *
