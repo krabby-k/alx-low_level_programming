@@ -2,9 +2,11 @@
 #include <stdlib.h>
 
 /**
- * main - prints name of the program
+ * main -prints name of the program
+ * @argc: -number of args
+ * @argv: array of string args
  *
- * Retun:0
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
