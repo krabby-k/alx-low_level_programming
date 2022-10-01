@@ -1,11 +1,14 @@
-#include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
+
 /**
- * main - prints all arguments it receives
- * @argc: number of args
- * @argv: array of args
- * Return: 0
- */
+ * * main - adds numbers
+ * * @argc: number of arguments passed to the function
+ * * @argv: argument vector of pointers to strings
+ * *
+ * * Return: 0 if no errors, else 1
+ * */
 int main(int argc, char *argv[])
 {
 	int a = 0, i, j;
@@ -16,7 +19,7 @@ int main(int argc, char *argv[])
 		{
 			if (isdigit(argv[i][j]) == 0)
 			{
-				printf("Error");
+				puts("Error");
 				return (1);
 			}
 		}
